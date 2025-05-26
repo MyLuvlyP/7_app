@@ -1,0 +1,13 @@
+html{
+    font-size: 17px;
+}
+
+html, html * { //html과 html의 모든 영역
+    box-sizing: border-box;
+    body{
+        margin: 0;
+        font-family: Arial; //실무를 볼때 폰트를 지정하지 않을 때는 이렇게 써 넣기
+        font-size: 1rem; //위에 html에 따로 폰트 사이즈를 지정해주고 이부분도 똑같이 들어갈 경우에는 1rem
+    }
+}
+@import "capsul";
